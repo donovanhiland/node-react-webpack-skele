@@ -2,8 +2,8 @@ import React from 'react';
 import { browserHistory, Router, IndexRoute, Route, Redirect } from 'react-router';
 
 import App from './views/app';
-import Meatball from './views/spaghetti';
-import Spaghetti from './views/meatballs';
+import Meatball from './views/meatball';
+import Spaghetti from './views/spaghetti';
 
 const Routes = () => (
   <Router history={browserHistory}>
