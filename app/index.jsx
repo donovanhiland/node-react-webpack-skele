@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer as HotReloader } from 'react-hot-loader';
