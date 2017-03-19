@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /* === Import dependencies == */
 const express = require('express');
 const session = require('express-session');
