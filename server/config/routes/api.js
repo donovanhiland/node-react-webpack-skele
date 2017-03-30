@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/test', (req, res) => {
-  res.status(200).send('test working');
+  res.status(200).send(`SESSION: ${req.session}`);
 });
 
 router.get('*', (req, res) => {
